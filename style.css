@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma', "Geneva", Verdana, sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}    
+
+.text {
+    display: inline-block;
+    width: 230px;
+    height: 70px;
+    border: 9px solid white;
+    border-radius: 50px;
+    color: white;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.voltran1 {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 100px;
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(243, 240, 240);
+    font-size: 2.5rem; 
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+}
+
+li {
+    margin-top: 10px;
+}
+
+.li-red {
+    color: red;
+    margin-left: 180px;
+}
+.li-con {
+    margin-right: 180px;
+}
+
+li:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.content {
+    width: 90%;
+    margin-left: 75px;
+    padding: 30px;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: red;
+    margin-bottom: 20px;
+}
+
+b {
+    font-size: 1.3rem;
+    color: rgb(66, 65, 65);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(66, 65, 65);
+    text-align: justify;
+    line-height: 40px;
+}
+
+.voltran2, .voltran3 {
+    padding: 70px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+.article2 {
+    display: inline-block;
+    width: 100%;
+    height: 330px;
+    background-color: rgb(243, 240, 240);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: rgb(66, 65, 65);   
+    margin-top: 50px; 
+}
+
+.article2 p {
+    width: 90%;
+    margin-left: 90px;
+    padding: 20px;
+    font-size: 1.rem;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+
+#email {
+    padding: 10px 20px;
+    border: 4px solid white;
+    border-radius: 50px;
+    font-size: 25px;
+    opacity: 0.9;
+    
+}
+
+#email:focus {
+    border: 4px dashed rgb(49, 48, 48);
+    outline-offset: 3px;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#send {
+    padding: 10px 20px;
+    border: 4px solid #7add45;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    font-size: 1.1rem;
+    color: white;
+}
