@@ -104,6 +104,10 @@ p {
     padding: 70px;
 }
 
+img.voltran:hover {
+    padding: 3px;
+}
+
 article {
     display: flex;
     justify-content: space-around;
